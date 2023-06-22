@@ -1,0 +1,11 @@
+---
+default: -p dev -p chrome -p json -p pretty
+dev: ENV_TYPE=dev
+hmg: ENV_TYPE=hmg
+firefox: BROWSER=firefox
+chrome: BROWSER=chrome
+headless: BROWSER=headless
+html: --format html --out=logs/report.html
+json: --format json --out=logs/report.json
+pretty: --format pretty
+progress: --format progress
